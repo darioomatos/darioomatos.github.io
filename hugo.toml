@@ -1,0 +1,60 @@
+baseURL = "https://darioomatos.github.io/"
+locale = "pt-br"
+title = " 0xDEADCODE | Security Research"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  author = "Dario Matos"
+  description = " security research · networks · low level · firmware "
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = false
+
+[params.homeInfoParams]
+  Title = "0xDEADC0DE"
+  Content = "cybersec · networks · low level · firmware"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/darioomatos"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/darioomatos"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup.highlight]
+  style = "monokai"
+  lineNos = true
+  lineNumbersInTable = true
+  noClasses = false
+
